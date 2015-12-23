@@ -21,7 +21,7 @@ if (Meteor.isClient){
  Tracker.autorun(function(){
   if(Meteor.user()){
     // login handler
-    Router.go("userProfile");
+    Router.go("/about");
   }
   else{
     // logout handler
